@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+ }
+ .parent{
+    border: 2px solid rgb(233, 14, 14);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    background-color:  lightyellow;    
+ }
+ .Box{
+    display: flex;
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+ }
+ #Box-1{
+    order: 1;
+    flex-grow: 1;
+ }
+ #Box-4{
+    order: 2;
+    
+ }
+    </style>
+</head>
+<body>
+
+<!-- .parent>.Box#Box-${Box-$}*10-->
+    
+    <div class="parent">
+        <div class="Box" id="Box-1">Box-1</div>
+        <div class="Box" id="Box-2">Box-2</div>
+        <div class="Box" id="Box-3">Box-3</div>
+        <div class="Box" id="Box-4">Box-4</div>
+        <div class="Box" id="Box-5">Box-5</div>
+        <div class="Box" id="Box-6">Box-6</div>
+        <div class="Box" id="Box-7">Box-7</div>
+        <div class="Box" id="Box-8">Box-8</div>
+        <div class="Box" id="Box-9">Box-9</div>
+        <div class="Box" id="Box-10">Box-10</div>
+    </div>
+</body>
+</html>
