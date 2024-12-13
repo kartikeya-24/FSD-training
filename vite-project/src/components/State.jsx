@@ -8,7 +8,7 @@ const State =() => {
             <button onClick={() => {
                 setTotal(total+1);
             }}> Bhadta Hua</button>
-
+                                
             <button onClick={() => {
                 setTotal(total-1);
             }}>Ghatta hua</button>
